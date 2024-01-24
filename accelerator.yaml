@@ -1,0 +1,19 @@
+apiVersion: entity.accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: test
+  tags:
+    - angular
+    - web
+    - tanzu
+    - typescript
+  title: Angular Frontend
+  description: Angular Single Page Application with client side rendered web UI. Application provides Service to interact with backend API's.
+spec:
+  accelerator:
+    options:
+      - name: artifactId
+        inputType: text
+        defaultValue: "angular-frontend"
+        label: Application artifact name
+        required: true
