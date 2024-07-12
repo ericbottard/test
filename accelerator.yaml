@@ -1,4 +1,5 @@
 #one more time
+#around the world
 
 apiVersion: entity.accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
