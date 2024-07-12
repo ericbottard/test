@@ -20,3 +20,4 @@ spec:
         defaultValue: "angular-frontend"
         label: Application artifact name
         required: true
+        # Another line
